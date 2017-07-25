@@ -1,0 +1,17 @@
+{
+"rdds": [
+    {
+        "name": "rdd",
+        "source": "file:///tmp/data/demo1/*.txt"
+    }
+],
+"dest": "/tmp/data/out/demo1/",
+"module": "demo1",
+"function": "demo_transform1",
+"function_kwargs": {
+    "selcolumn": "B"
+    }
+}
+
+
+
